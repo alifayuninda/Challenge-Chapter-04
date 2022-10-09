@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cari Mobil</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"></script>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <section id="navbar">
+                <nav class="navbar navbar-expand-lg">
+                    <div class="container-fluid">
+                      <a class="navbar-brand" href="#">
+                        <img src="./images/logo.png" alt="Logo" width="100" height="34">
+                      </a>
+                      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                      </button>
+                      <div class="collapse navbar-collapse" id="navbarNav">
+                        <ul class="navbar-nav ms-auto">
+                          <li class="nav-item">
+                            <a class="nav-link active" href="#">Our Services</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link" href="#">Why Us</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link" href="#">Testimonial</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link" href="#">FAQ</a>
+                          </li>
+                          <li class="nav-item">
+                            <button type="button" class="btn btn-success" id="regis">Register</button>
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                  </nav>
+            </section>
+            <section class="hero">
+            <div class="row">
+                <div class="col-12 col-md-6">
+                    <div class="text">
+                        <h1>Sewa & Rental Mobil Terbaik di Kawasan Badung</h1>
+                        <p style="height: 58px; width: 395px;">Selamat datang di Binar Car Rental. Kami menyediakan mobil kualitas terbaik dengan harga terjangkau. Selalu siap melayani kebutuhanmu untuk sewa mobil selama 24 jam.</p>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6">
+                    <div class="img-hero">
+                        <img src="./images/img_car.png" alt="Hero Image"  style="
+                        height: 249px;">
+                    </div>
+                </div>
+            </div>
+            </section>
+        </div>
+     </header>
+
+     <section class="filter-mobil">
+        <div class="container">
+                <div class="row g-3 mt-4 mb-4">
+                    <div class="col-12">
+                        <div class="card">
+                            <div class="card-body col-3" id="tipe-driver">
+                                <h5>Tipe Driver</h5>
+                                <select id="pilih" name="tipe-driver" class="form-select">
+                                <option selected font-size="12px">Tipe Driver</option>
+                                <option value="with">Dengan Sopir</option>
+                                <option value="without">Tanpa Sopir (Lepas Kunci)</option>
+                                </select>
+                            </div>
+                            <div class="card-body col-3" id="tanggal-pinjam">
+                                <h5>Tanggal Sewa</h5>
+                                <input type="date" class="datetime" placeholder="Tanggal" name="tanggal-sewa">
+                            </div>
+                            <div class="card-body col-3" id="picktime">
+                                <h5>Waktu Ambil/Jemput</h5>
+                                <select name="waktu" class="form-select">
+                                    <option selected>Pilih Waktu Jemput/Ambil</option>
+                                    <option value="time">08.00 WIB</option>
+                                    <option value="time2">09.00 WIB</option>
+                                    <option value="time3">10.00 WIB</option>
+                                    <option value="time4">11.00 WIB</option>
+                                    <option value="time5">12.00 WIB</option>
+                                    <option value="time6">13.00 WIB</option>
+                                </select>
+                            </div>
+                            <div class="card-body col-3" id="jumlah">
+                                <h5>Jumlah Penumpang (Optional)</h5>
+                                <div class="input-group mb-3">
+                                    <input type="text" id="cari" class="form-control" placeholder="Jumlah Penumpang">
+                                    <a class="btn btn-success" type="button" id="search">Cari Mobil</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+        </div>
+     </section>
+
+     <section class="footer">
+        <div class="container mt-5">
+            <div class="card-header">
+                <div class="row">
+                    <div class="col">
+                        <p>Jalan Suroyo No. 161 Mayangan Kota Probolonggo 672000</p>
+                        <p>binarcarrental@gmail.com</p>
+                        <p>081-233-334-808</p>
+                    </div>
+                    <div class="col">
+                        <p>Our services</p>
+                        <p>Why Us</p>
+                        <p>FAQ</p>
+                    </div>
+                    <div class="col">
+                        <p>Connect with us</p>
+                        <img src="./images/contact_us.png" alt="contact">
+                    </div>
+                    <div class="col">
+                        <p>Copyright Binar 2022</p>
+                        <img src="./images/logo.png" alt="logo">
+                    </div>
+                </div>
+              </div>
+        </div>
+        <div class="card">
+    </section>
+</body>
+</html>
